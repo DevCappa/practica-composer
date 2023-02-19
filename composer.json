@@ -1,0 +1,21 @@
+{
+    "name": "practica-composer/content",
+    "description": "Proyecto de practica",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "setasign/fpdf": "^1.8"
+    },
+    "license": "001",
+    "autoload": {
+        "psr-4": {
+            "PracticaComposer\\Content\\": "content/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Sequera"
+        }
+    ],
+    "minimum-stability": "beta"
+}
